@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="myapp-impl" basedir=".." xmlns:sproject="https://netbeans.org/ns/nb-module-suite-project/1">
+
+    <property file="nbproject/platform.properties"/>
+
+    <macrodef name="property" uri="https://netbeans.org/ns/nb-module-suite-project/1">
+        <attribute name="name"/>
+        <attribute name="value"/>
+        <sequential>
+            <property name="@{name}" value="${@{value}}"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="evalprops" uri="https://netbeans.org/ns/nb-module-suite-project/1">
+        <attribute name="property"/>
+        <attribute name="value"/>
+        <sequential>
+            <property name="@{property}" value="@{value}"/>
+        </sequential>
+    </macrodef>
+
+    <sproject:property name="harness.dir" value="nbplatform.${nbplatform.active}.harness.dir"/>
+
+    <sproject:property name="nbplatform.active.dir" value="nbplatform.${nbplatform.active}.netbeans.dest.dir"/>
+
+    <sproject:evalprops property="cluster.path.evaluated" value="${cluster.path}"/>
+
+    <import file="${harness.dir}/suite.xml"/>
+
+</project>

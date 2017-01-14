@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Cloud">
+        <file name="OpenShiftServerInstanceProvider.instance">
+            <attr name="instanceCreate" methodvalue="org.netbeans.modules.cloud.openshift.OpenShiftServerInstanceProvider.getProvider"/>
+            <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.openshift.OpenShiftServerInstanceProvider"/>
+            <attr name="instanceOf" stringvalue="org.netbeans.spi.server.ServerInstanceProvider"/>
+        </file>
+        <file name="org-netbeans-modules-cloud-openshift-OpenShiftServerWizardProvider.instance">
+            <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.openshift.OpenShiftServerWizardProvider"/>
+            <attr name="instanceOf" stringvalue="org.netbeans.spi.server.ServerWizardProvider"/>
+            <attr name="displayName" stringvalue="OpenShift"/>
+        </file>
+    </folder>
+</filesystem>

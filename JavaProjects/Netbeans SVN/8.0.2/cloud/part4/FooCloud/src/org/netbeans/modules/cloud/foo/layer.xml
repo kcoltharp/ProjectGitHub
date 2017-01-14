@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Cloud">
+        <file name="FooCloudInstanceProvider.instance">
+            <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.foo.FooCloudInstanceProvider"/>
+            <attr name="instanceCreate" methodvalue="org.netbeans.modules.cloud.foo.FooCloudInstanceProvider.getProvider"/>
+            <attr name="instanceOf" stringvalue="org.netbeans.spi.server.ServerInstanceProvider"/>
+        </file>
+        <file name="FooCloudWizardProvider.instance">
+            <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.foo.ui.FooCloudWizardProvider"/>
+            <attr name="instanceOf" stringvalue="org.netbeans.spi.server.ServerWizardProvider"/>
+            <attr name="displayName" stringvalue="Foo"/>
+        </file>
+    </folder>
+    <folder name="Servers">
+        <file name="FooServerInstanceProvider.instance">
+            <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.foo.serverplugin.FooServerInstanceProvider"/>
+            <attr name="instanceCreate" methodvalue="org.netbeans.modules.cloud.foo.serverplugin.FooServerInstanceProvider.getProvider"/>
+            <attr name="instanceOf" stringvalue="org.netbeans.spi.server.ServerInstanceProvider"/>
+        </file>
+    </folder>
+    <folder name="J2EE">
+        <folder name="DeploymentPlugins">
+            <folder name="Foo">
+                <file name="Factory.instance">
+                    <attr name="urlPattern" stringvalue="^foo:.*$"/>
+                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.j2ee.deployment.plugins.spi.support.ProxyDeploymentFactory.create"/>
+                    <attr name="delegate" newvalue="org.netbeans.modules.cloud.foo.j2ee.FooDeploymentFactory"/>
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.j2ee.deployment.plugins.spi.support.ProxyDeploymentFactory"/>
+                    <attr name="instanceOf" stringvalue="javax.enterprise.deploy.spi.factories.DeploymentFactory"/>
+                </file>
+                <file name="RegistryNodeFactory.instance">
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.common.spi.support.serverplugin.RegistryNodeFactoryImpl"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.j2ee.deployment.plugins.spi.RegistryNodeFactory"/>
+                </file>
+                <file name="J2eePlatformFactory.instance">
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.foo.j2ee.FooJ2eePlatformFactory"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.j2ee.deployment.plugins.spi.J2eePlatformFactory"/>
+                </file>
+                <file name="ModuleConfigurationFactory.instance">
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.common.spi.support.serverplugin.ModuleConfigurationFactoryImpl"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.j2ee.deployment.plugins.spi.config.ModuleConfigurationFactory"/>
+                </file>
+                <file name="OptionalDeploymentManagerFactory.instance">
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.cloud.foo.j2ee.FooOptionalDeploymentManagerFactory"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.j2ee.deployment.plugins.spi.OptionalDeploymentManagerFactory"/>
+                </file>
+                <file name="Descriptor" url="nbdep.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

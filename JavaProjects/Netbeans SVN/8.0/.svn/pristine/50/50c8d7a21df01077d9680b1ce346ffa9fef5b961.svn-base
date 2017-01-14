@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 29 10:22:18 CEST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-0146-e6b7-b60b-0000048d4f70 
+on database directory /home/geertjan/.puzzle/EPSG/EPSG  with class loader ModuleCL@163a7d9[org.geotools.MyGeospatialSystem.map] 
+Loaded from jar:file:/home/geertjan/NetBeansProjects/api-samples/versions/8.0/tutorials/geospatial/gtk/MyGeospatialSystem/application/target/mygeospatialsystem/mygeospatialsystem/modules/ext/org.apache.derby/derby-10.9.1.0.jar!/
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0-b132
+user.dir=/home/geertjan/NetBeansProjects/api-samples/versions/8.0/tutorials/geospatial/gtk/MyGeospatialSystem/application
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Jun 29 10:23:20 CEST 2014:
+Shutting down instance a816c00e-0146-e6b7-b60b-0000048d4f70 on database directory /home/geertjan/.puzzle/EPSG/EPSG with class loader ModuleCL@163a7d9[org.geotools.MyGeospatialSystem.map] 

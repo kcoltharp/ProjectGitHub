@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="FinalProject">
+  <ClassDiagramComponents>
+    <Class name="Product" package="" visibility="public" xPosition="67.0" yPosition="59.0">
+      <Fields>
+        <Field name="productID" type="int" visibility="private"/>
+        <Field name="productName" type="String" visibility="private"/>
+        <Field name="productPrice" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="id"/>
+          <Argument type="String" name="name"/>
+          <Argument type="double" name="price"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="int" name="id"/>
+          <Argument type="String" name="name"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getProductPrice" returnType="double" visibility="protected"/>
+        <Method name="setProductPrice" returnType="double" visibility="protected">
+          <Argument type="double" name="price"/>
+        </Method>
+        <Method name="getProductID" returnType="int" visibility="protected"/>
+        <Method name="setProductID" returnType="int" visibility="protected">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getProductName" returnType="String" visibility="protected"/>
+        <Method name="setProductName" returnType="String" visibility="protected">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Menu" package="" visibility="public" xPosition="445.0" yPosition="59.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="orderEntry" package="" visibility="public" xPosition="647.0" yPosition="59.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Order" package="" visibility="public" xPosition="865.0" yPosition="59.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="ProductInterface" package="" visibility="public" xPosition="499.0" yPosition="294.0">
+      <Methods>
+        <Method name="getProductPrice" returnType="double" visibility="public"/>
+        <Method name="getProductName" returnType="String" visibility="public"/>
+        <Method name="getProductID" returnType="int" visibility="public"/>
+        <Method name="setProductPrice" returnType="double" visibility="public">
+          <Argument type="double" name="price"/>
+        </Method>
+        <Method name="setProductName" returnType="String" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="setProductID" returnType="int" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+      </Methods>
+    </Interface>
+    <Interface name="MenuInterface" package="" visibility="public" xPosition="841.0" yPosition="303.0">
+      <Methods/>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

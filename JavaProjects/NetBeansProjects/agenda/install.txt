@@ -1,0 +1,53 @@
++-------------------------------------+
+| 1. Basic installation               |
+| 2. Installing automatic mailing    |
+| 3. Updating a previous installation |
++-------------------------------------+
+
+The installation manual
+-----------------------
+Updated for version 2.0 - Last change: 2007-03-04 ~ Thomas
+Updated for version 2.1 - Last change: 2007-03-17 ~ Thomas
+Added line for $enableReminders : 2007-08-20 ~ Thomas
+Added new install procedure since 2.2.6 - 2009-04-20
+
+1. Basic installation
+======================
+To install the simple php-agenda you can follow these steps:
+
+- You'll need a webserver or webhosting with php support and a MySQL database.
+- (optional) Create a MySQL database for the agenda.
+- (optional) Create a database user for the agenda.
+- Copy the contents of the zip file to a directory on your webspace or webserver.
+- Put the correct settings in config.inc.php
+- Run the install.php script
+- When there are no warning or errors, the agenda is created and correctly installed
+- IMPORTANT: Delete install.php! The script does not check if there is already an agenda installed and you could accidently overwrite a previous install.
+- IMPORTANT: Delete the 'update' directory. This directory contains script used to update from previous versions. These script alter the database, which may be unwanted in your installation.
+
+2. Installing automatic mailing
+===============================
+The automatic reminders require you to install a script as a cron job.
+The two scripts that should be included as cron jobs are:
+- engine/sendreminders.php (this script should typically be invoked every few minutes)
+- engine/senddailyreminder.php (this script should be invoked early in the morning, once a day)
+- you also need to set the variable $enableReminder to true to allow users to set reminders on the appointments
+
+Typically you can call a php-script from cron using one of the following methods:
+a) wget http://yourhost.com/engine/sendreminders.php
+b) curl http://yourhost.com/engine/sendreminders.php
+c) lynx -dump http://yourhost.com/engine/sendreminders.php
+d) /usr/local/bin/php /home/username/httpdocs/engine/sendreminders.php
+
+For more info on how to set up cron jobs on your hosting, you should use google as this is platform dependend.
+
+
+
+3. Updating an existing installation
+====================================
+To update an installation:
+- Copy the contents of the zip file over your existing installation. Be careful not to overwrite the configuration file.
+- When it is a major update, go to the update folder in you installation. For example: http://localhost/agenda/update/
+- Choose the appropriate update script and click it. These script immediately run without any warnings or confirmations!
+- Remove the 'update' directory and the install.php file. These files may have unwanted effect afterwards.
+- Also execute the steps you need from point 2 in this manual

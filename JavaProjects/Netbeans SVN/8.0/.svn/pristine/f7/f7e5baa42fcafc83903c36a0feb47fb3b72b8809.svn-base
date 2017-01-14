@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 29 10:21:14 CEST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0146-e6b6-bdbb-0000023b19f0 
+on database directory /home/geertjan/.geotoolkit.org/EPSG/7.09  with class loader sun.misc.Launcher$AppClassLoader@139a55 
+Loaded from file:/home/geertjan/.m2/repository/org/apache/derby/derby/10.8.2.2/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0-b132
+user.dir=/home/geertjan/NetBeansProjects/api-samples/versions/8.0/tutorials/geospatial/gtk/GeoTKSample
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Jun 29 10:21:30 CEST 2014:
+Shutting down instance a816c00e-0146-e6b6-bdbb-0000023b19f0 on database directory /home/geertjan/.geotoolkit.org/EPSG/7.09 with class loader sun.misc.Launcher$AppClassLoader@139a55 

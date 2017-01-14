@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- 
+			This is the HEAD where all the meta data, page title, link to
+			the stylesheet reside in an html document.
+		-->
+		<title>Fish Creek Animal Hospital - Contact</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/fishcreek.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif-->
+	</head>
+	<body>
+	<!-- 
+		The header will display at the top of the page.
+	-->
+		<div id="wrapper">
+			<header>
+				<h1>Fish Creek Animal Hospital</h1>
+			</header>
+			<nav>
+			<!-- 
+				This is the navigation area and will display the navigation links in 
+				an unordered list.
+			-->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="askvet.html">Ask the Vet</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h2>Contact Fish Creek</h2>
+					<p>Required fields marked with an asterisk *</p>
+				<!-- 
+					This is the form for users to send comments to fishcreek.
+				-->
+				<form method="post" action="http://webdevbasics.net/scripts/fishcreek.php">
+					<label for="myName">*Name:</label>
+						<input type="text" name="myName" required="required" placeholder="your first and last name">				
+					<label for="myEmail">*E-mail:</label>
+						<input type="email" name="myEmail" required="required" placeholder="you@yourdomain.com">
+					<label for="myComments">*Comments:</label>
+						<textarea name="myComments" required="required" rows="2" cols="20"></textarea>
+				<input id="mySubmit" type="submit" value="Submit Now">
+				</form>
+			</main>
+			<footer>
+			<!-- 
+				This is the footer part of the document and contains the copyright and email link.
+			-->
+				Copyright &copy; 2014 Fish Creek Animal Hospital<br />
+				<a href="mailto:kenny@fishcreekanimalhospital.com">kenny@fishcreekanimalhospital.com<a/>
+			</footer>
+		</div>
+	</body>
+</html>

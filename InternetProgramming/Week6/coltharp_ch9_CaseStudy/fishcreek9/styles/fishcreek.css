@@ -1,0 +1,209 @@
+body{
+	background-color: #6699ff;
+	color: #d5e3ff;
+	font-family: Arial, Verdana, sans-serif;
+	background-image: url('../images/gradientblue.jpg');
+}
+header{
+	background-color: #000066;
+	color: #FFFFFF;
+	background-image: url(../images/bigfish.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h1 {
+	font-size: 3em;
+	padding: 10px;
+	line-height: 150%;	
+	text-align: center;
+	text-shadow: -3px 2px #CCCCCC;
+}
+main{
+	margin-left: 180px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+footer{
+	font-size: .70em;
+	font-style: italic;
+	text-align: left;
+	padding: 10px;
+}
+img{
+	border: none;
+}
+table{
+	border: 2px solid #000066;
+	border-collapse: collapse;	
+}
+td, th{
+	padding: 0.5em;
+	border: 1px solid #000066;
+}
+header, nav, main, footer{
+	display: block;
+}
+/*
+ * Configuration for the contact.html 
+ * webpage follows.
+ */
+ label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 5px;
+ }
+ input, textarea{
+	display: block;
+	margin-bottom: 1em;
+ }
+ #mySubmit{
+	margin-left: 10em;
+ }
+
+/*
+ * This area is for declared classes
+ * and ids within the html.
+ */
+.category{
+	background-color: #FFFFFF;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #666;
+}
+#mobile{
+	display: none;
+}
+#desktop{
+	display: inline;
+}
+#wrapper{
+	background-color: #FFFFFF;
+	color: #000066;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1024px;
+	min-width: 700px;
+}
+
+
+/*
+ * This is the navigation configuration:
+ * Navigation is in an unordered list with
+ * no decorations in a column in the left 
+ * column. The column width is 150px wide.
+ * The text is bold and colored according
+ * to the type of link.
+ */
+nav{
+	float: left;
+	width: 150px;
+	font-weight: bold;
+}
+nav ul{
+	list-style-type: none;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #3262A3;
+}
+nav a:visited{
+	color: #6699FF;
+}
+nav a:hover{
+	color: #CCCCCC;
+}
+/*
+ * This is the CSS for tablet screens
+ *
+ */
+ @media only screen and (max-width: 1024px){
+	body{
+		padding: 0;
+		background-color: #FFFFFF;
+		background-image: none;
+	}
+	#wrapper{
+		width: auto;
+		min-width: 0;
+		margin: 0;		
+	}
+	h1{
+		margin: 0;
+		text-align: center;
+		font-size: 2em;
+		line-height: 200%;
+	}
+	nav{
+		float: none;
+		width: auto;
+	}
+	nav li{
+		display: inline;
+	}
+	nav a{
+		padding: 1em;
+		border-style: none;
+		font-size: 1.2em;
+	}
+	nav ul{
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	main{
+		margin: 0;
+		padding-bottom: 0;
+		padding-top: 0;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	dd{
+		margin-bottom: 1em;
+	}
+	footer{
+		margin: 0;
+	}
+ }
+ @media only screen and (max-width: 768px){
+	header{
+		background-image: url(../images/lilfish.gif);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	h1{
+		font-size: 1.5em;
+		line-height: 120%;		
+	}
+	nav a{
+		display: block;
+		padding: 0.2em;
+		font-size: 1.3em;
+		border-bottom: 1px solid #330000;
+	}
+	nav li{
+		display: block;
+	}
+	nav ul{
+		text-align: left;
+	}
+	main{
+		padding: 0.4em;
+	}
+	.category{
+		text-shadow: none;		
+	}
+	footer{
+		padding: 0;
+	}
+	#mobile{
+		display: inline;
+	}
+	#desktop{
+		display: none;
+	}
+ }

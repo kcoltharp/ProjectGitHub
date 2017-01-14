@@ -1,0 +1,10 @@
+Create a folder named lastname_firstname_chapterX where X is the chapter number of this assignment.
+Inside that folder you will place the entire project folder for each programming challenge.  When 
+creating the projects, use the naming scheme of lastname_firstname_YYY, where YYY are your initials.  
+This should be done for both the project and the class that are created.  In addition to the code 
+that you will be handing in, also create a requirements document and an event planning document for 
+each challenge.  Place these documents in the corresponding project folder.  The naming scheme for 
+the requirements document and event planner will be lastname_RD and lastname_EP respectively.  As 
+always, proper programming practices should be utilized at all times, including thorough comments 
+and variable naming schemes.  Once all items have been completed, zip the main folder and upload 
+into the dropbox.

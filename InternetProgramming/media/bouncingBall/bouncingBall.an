@@ -1,0 +1,55 @@
+
+{
+
+	"HTMLFileName":"bouncingBall.html",
+	"pref__general__AutoKeyframeProperties":"true",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }}\
+}",
+	"LockGuides":"true",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"symbol_stage":{
+		"dummyStageParentWidth":"550px",
+		"element_${Ellipse}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"550px",
+		"defaultStageParentHeight":"400px",
+		"dummyStageParentHeight":"400px"},
+	"TransitionIdCounter":"12",
+	"CompZoomFactor":"100",
+	"viewStartY":"0",
+	"pixelsPerMs":"0.2",
+	"Down-level-Default Timeline_playhead_ms":"0",
+	"symbol_Down-level":{
+		"defaultStageParentWidth":"550px",
+		"defaultStageParentHeight":"400px",
+		"dummyStageParentWidth":"550px",
+		"dummyStageParentHeight":"400px"},
+	"usedBOM":"false",
+	"nextElementColorIndex":"3",
+	"stage-Default Timeline_playhead_ms":"4000",
+	"StageZoomFactor":"100",
+	"stage-Default Timeline_mark_ms":"-1",
+	"pref__general__GenerateSmoothTransitions":"true"}

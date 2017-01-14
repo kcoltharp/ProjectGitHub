@@ -1,0 +1,151 @@
+body{
+	background-color: #eceff0;
+}
+
+body, input{
+	font:1em "Open Sans", sans-serif;
+	color:#363639;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+/* List */
+.list{
+	background-color: #fff;
+	margin-left: 20px;
+	width: 100%;
+	max-width: 600px;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .3);
+	box-sizing: border-box;
+	/*margin-right: 200px;
+ */
+}
+
+.list .header, .paint-list .header{
+	font-family: "Shadows Into Light Two", cursive;
+	margin: 0 0 10px 0;
+}
+
+/* Items */
+.items{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.items li:hover .done-button{
+	opacity: 1;
+}
+
+.items li:hover .delete-button{
+	opacity: 1;
+}
+.items .item.done{
+	text-decoration: line-through;
+}
+
+.items li,
+.item-add .input{
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+	
+}
+
+.input{
+	width: 100%;
+}
+
+.input:focus{
+	outline: none;
+}
+
+/* Done button */
+.done-button{
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+}
+
+/* Delete Button */
+.delete-button{
+	display: inline-block;
+	font-size: .8em;
+	background-color: #d9dfe1;
+	color: #363639;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+}
+
+/* Submit button */
+.submit{
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 #ddd;
+	opacity: 0.9;
+}
+
+.submit:focus{
+	opacity: 1.5;
+}
+
+.login-input{
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+	width: 25%;
+}
+
+.login-submit{
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 25%;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 #ddd;
+	opacity: 0.9;
+}
+
+.span{
+	padding: 100px;
+	margin-bottom:200px;
+}
+
+/* Model Paint List */
+.paint-list{
+	background-color: #fff;
+	margin-left: 20px;
+	width: 100%;
+	max-width: 600px;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .3);
+	box-sizing: border-box;
+	/*margin-right: 200px;
+ */
+}
+
+.textbox{
+	float: right;
+}
+
+.option {
+	margin-right: 115px;
+}
+
+.option-base {
+	margin-right: 130px;
+}

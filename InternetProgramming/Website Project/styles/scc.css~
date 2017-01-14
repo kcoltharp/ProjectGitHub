@@ -1,0 +1,243 @@
+ @media only screen and (max-width: 800px) {
+
+}
+ 
+ /*
+ *  Begin id and class section.
+ *	This is the wrapper id that will wrap around
+ *	all of the other elements on the page.
+ */
+#wrapper{
+	width: 90em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;	
+}
+div#locallyOwned{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	font-style: italic;
+	text-shadow: rgba(255, 255, 255, .6) 1px 1px 1px, rgba(0, 0, 0, 0.4) .2em .2em .2em;
+	color: #FF8500;
+	margin: 0 0 0 47em;
+	padding: 0;
+}
+#horLine{
+	margin-top: 2.5em;
+	height: 1.5em;
+	width: 99.5%;
+	background-color: #FFB600;
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+}
+#date_time{
+	font-size: .75em;
+	font-style: italic;
+	font-weight: bold;
+	color: #FF8500;
+	margin-top: 1em;
+	margin-left: 80%;
+}
+#text{
+	margin-left: 27%;
+}
+.content div{
+	-webkit-column-count: 2;
+	-webkit-column-gap: 2%; /* Saf3, Chrome*/
+	-moz-column-count: 2;   
+	-moz-column-gap: 2%; /* FF3.5+ */
+	column-count: 2;        
+	column-gap: 2%; /* Opera 11+*/
+}
+
+/*
+ *	Fixed Navigation Bar
+ *	This is the fixed navigation bar across the top 
+ *	that will be fixed in place. It will be on top
+ *	of any other page element as the page is scrolled
+ *	down.
+ */
+.fixedNav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4.9em;
+	width: 99.5%;
+	z-index: 9999;
+	/*
+	left: 28.5em;	
+	width: 61.4em;
+	*/
+	
+	/* Background for the navigation bar */
+	background-color: #FFBC73;
+
+	/*
+	 *	Border and curves for corners
+	 */	
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+	border: 5px double #000000;		
+}
+
+/*
+ *	Footer Navigation
+ *	This is the bottom navigation used for accessibility if the CSS 
+ *  buttons can not be used.
+ */
+
+
+/*
+ *  End id and class section.
+ *  Begin element styling.
+ */
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #000;
+}
+header{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #162EAE;
+}
+header img{
+	float: left;
+	padding: .5em;
+	margin: .1em 0 0 1em;
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+}
+header h1{
+	font-size: 4em;
+	text-shadow: #FFD773 1px 1px 1px, #898A8A .11em .11em .11em;
+	margin: .25em .3em 0 3.5em;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+main{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: .5em;	
+	border: 3px ridge #000;
+	background-color: #0776A0;
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+}
+dt{
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 30%;
+	padding: .3em;
+	margin: .3em;
+	background-color: #FFD773;
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+}
+dt:hover{
+	background-color: #BF9630;
+	/*
+	-webkit-transition: background-color 2s linear;
+	-mox-transition: background-color 2s linear;
+	-o-transition: background-color 2s linear;
+	transition: background-color 2s linear;
+	*/
+}
+dd{
+	font-size: 1em;
+	padding: .5em;
+}
+dd:hover{
+	font-size: 1.1em;
+	background-color: #FFBC73;
+	color: #162EAE;
+	padding: .8em;
+	-webkit-transition: background-color 2s linear;
+	-mox-transition: background-color 2s linear;
+	-o-transition: background-color 2s linear;
+	transition: background-color 2s linear;
+	-webkit-transition: color 2s linear;
+	-mox-transition: color 2s linear;
+	-o-transition: color 2s linear;
+	transition: color 2s linear;
+	-webkit-transition: font-size 2s linear;
+	-mox-transition: font-size 2s linear;
+	-o-transition: font-size 2s linear;
+	transition: font-size 2s linear;
+	border-radius: 2em 2em 2em 2em;
+	-moz-border-radius: 2em 2em 2em 2em;
+	-webkit-border-radius: 2em 2em 2em 2em;
+}
+a:link{
+	color: blue;
+	text-decoration: none; 
+}
+a:visited{
+	color: purple; 
+	text-decoration: none; 
+}
+a:hover{
+	color: #D71871;
+	text-decoration: underline;
+	-webkit-transition: color 2s linear;
+	-mox-transition: color 2s linear;
+	-o-transition: color 2s linear;
+	transition: color 2s linear;
+}
+a:active{
+	color: red; 
+}
+footer{
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .75em;
+	height: 4.9em;
+	border: 3px ridge #000;
+	font-size: .75em;
+	font-style: italic;
+	background-color: #FFBC73;
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+}
+footer nav{
+	font-size: 1.25em;
+	padding: .5em;
+	margin-left: 33%;
+	margin-right: auto;
+}
+footer nav a{
+	background-color: #62B1D0;
+	padding: .4em .6em .5em .6em;
+	border-radius: 5em 5em 5em 5em;
+	-moz-border-radius: 5em 5em 5em 5em;
+	-webkit-border-radius: 5em 5em 5em 5em;
+}
+footer nav a:hover{
+	cursor: pointer;
+	background-color: #BF9630;
+	-webkit-transition: background-color 2s linear;
+	-mox-transition: background-color 2s linear;
+	-o-transition: background-color 2s linear;
+	transition: background-color 2s linear;
+}
+footer nav a:focus{
+	outline: none;
+	color: rgba(254, 255, 255, 0.9) !important;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+footer nav a:active:after{
+	opacity: .6;
+}
+
+
+
+@media only screen and (max-width: 220px) {
+
+}

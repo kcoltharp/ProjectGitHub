@@ -1,0 +1,42 @@
+<!DOCTYPE fontscolors PUBLIC
+    "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN"
+    "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor name="comment" default="comment"/>
+    <fontcolor name="packageAttribute" foreColor="FF990099">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="annotationAttribute" foreColor="black">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="typeAttribute" foreColor="black">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="identifierAttribute" foreColor="FF009999">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="numberAttribute" foreColor="FF6600CC">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="annotationStringAttribute" foreColor="blue">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="charAttribute" foreColor="orange">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="stringAttribute" foreColor="blue">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="typeLiteralAttribute" foreColor="FF336633">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="semiAttribute" foreColor="FF999999">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="braceAttribute" foreColor="FF999999">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="foo" foreColor="FF990099">
+        <font style="bold" />
+    </fontcolor>
+</fontscolors>

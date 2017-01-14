@@ -1,0 +1,13 @@
+file.reference.jboss-dmr-1.1.1.Final.jar=release/modules/ext/jboss-dmr-1.1.1.Final.jar
+file.reference.jsch-0.1.51.jar=release/modules/ext/jsch-0.1.51.jar
+file.reference.openshift-java-client-2.6.0.Final.jar=release/modules/ext/openshift-java-client-2.6.0.Final.jar
+file.reference.org-netbeans-modules-cloud-common.jar=release/modules/ext/org-netbeans-modules-cloud-common.jar
+file.reference.org-netbeans-modules-git.jar=release/modules/ext/org-netbeans-modules-git.jar
+file.reference.org-netbeans-modules-web-common.jar=release/modules/ext/org-netbeans-modules-web-common.jar
+file.reference.slf4j-api-1.7.7.jar=release/modules/ext/slf4j-api-1.7.7.jar
+file.reference.ValidationAPI.jar=release/modules/ext/ValidationAPI.jar
+javac.source=1.6
+javac.compilerargs=-Xlint -Xlint:-serial
+license.file=manifest.mf
+nbm.homepage=https://www.youtube.com/watch?v=VtzThoMscAg
+nbm.module.author=Cojan and Geertjan

@@ -1,0 +1,5 @@
+FooCloudVisualComponent.passwordField.text=jPasswordField1
+FooCloudVisualComponent.userField.text=
+FooCloudVisualComponent.jLabel2.text=User Name
+FooCloudVisualComponent.jLabel3.text=Password:
+FooCloudVisualComponent.jPanel1.border.title=Login

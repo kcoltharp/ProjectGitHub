@@ -1,0 +1,13 @@
+LBL_SignInStep=Sign in to OpenShift
+LBL_CreateProjectStep=New OpenShift Application
+FooPanelVisual.createdFolderLabel.text=Project &Folder:
+FooPanelVisual.browseButton.actionCommand=BROWSE
+FooPanelVisual.browseButton.text=Br&owse...
+FooPanelVisual.projectLocationLabel.text=Project &Location:
+FooPanelVisual.projectNameLabel.text=Project &Name:
+FooNewAppPanelVisual.jLabel1.text=Domain:
+FooNewAppPanelVisual.jLabel2.text=Name:
+FooNewAppPanelVisual.newApplicationPanel.border.title=New Application
+FooNewAppPanelVisual.applicationNameField.text=
+FooNewAppPanelVisual.cartridgesScrollPane.border.title=Choose one cartridge
+FooNewAppPanelVisual.ecartridgesScrollPane.border.title=Choose one or more embeddable cartridges

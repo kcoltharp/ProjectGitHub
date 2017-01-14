@@ -1,0 +1,6 @@
+file.reference.antlr-3.4-complete-no-antlrv2.jar=release/modules/ext/antlr-3.4-complete-no-antlrv2.jar
+file.reference.com.redhat.ceylon.common-1.1.0.jar=release/modules/ext/com.redhat.ceylon.common-1.1.0.jar
+file.reference.com.redhat.ceylon.module-resolver-1.1.0.jar=release/modules/ext/com.redhat.ceylon.module-resolver-1.1.0.jar
+file.reference.com.redhat.ceylon.typechecker-1.1.0.jar=release/modules/ext/com.redhat.ceylon.typechecker-1.1.0.jar
+javac.source=1.6
+javac.compilerargs=-Xlint -Xlint:-serial
